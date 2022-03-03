@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'Middleschool_student';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_08@1.0/Middleschool_student.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'Middleschool_student';
+    margin: 0 auto;
+}
+
+.navbar{
+    background-color: #8E6BBF;
+    border-radius: 30px;
+    padding: 8px;              
+}
+
+.navbar a{
+    font-size: 40px;
+}
+
+table{
+    width: 800px;
+    font-size: 21px;
+}
+
+table th{
+    text-align: center;
+    width: 70px;
+    border-radius: 25px;
+    background-color: #DED0F2;
+}
+
+tr td{
+    padding-left: 15px;
+}
+
+table .content{
+    height: 400px;
+}
+
+.content th{
+    justify-self: center;
+}
+
+.content td{
+    padding: 20px;
+}
+
+.btn{
+    background-color: #8E6BBF;
+    color: white;
+    width: 55px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color: #D2BBF2;
+    color: rgb(71, 70, 70);
+}
+
+td a[href]{
+    color: #8E6BBF;
+    margin-left: 10px;
+    font-size: 22px;
+    
+}
+
+.menu td a[href]:hover{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.move_content td a[href]:hover{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#reply_list thead{
+    font-size: 24px;
+    font-weight: bold;
+    color: #392259;
+}
+
+#reply_list th{          
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+#reply_list td{
+    border-radius:30px;
+    padding-left: 25px; 
+    font-size: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+}
+
+#reply_list tbody tr:hover{
+    background-color: #f7f4fc;
+    font-weight: bold;
+}
+
+footer p{
+    font-size: 12px;
+    color: rgb(255, 204, 240);
+}

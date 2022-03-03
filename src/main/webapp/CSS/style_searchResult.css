@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'Middleschool_student';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_08@1.0/Middleschool_student.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'Middleschool_student';
+}
+
+.navbar{
+    background-color: #8E6BBF;
+    border-radius: 30px;
+    padding: 8px;              
+}
+
+.navbar a{
+    font-size: 40px;
+}
+
+.custom-select{
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.form-control{
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.btn{
+    background-color: #D2BBF2;
+    color: rgb(71, 70, 70);
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color: #AE8FD9;
+    color: rgb(71, 70, 70);
+}
+
+table .table{
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.table th{
+    background-color: #DED0F2;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 30px;
+    color: rgb(71, 70, 70);
+    font-size: 20px;
+
+}
+
+.table td{
+    border-radius:30px;
+    padding-left: 25px; 
+    font-size: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+}
+
+td a[href]{
+    color: #8E6BBF;
+}
+
+td .badge-custom{
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 50%;
+    width: 20px;
+    background-color: #5252FA;
+    color: white;
+    font-weight: bold;
+}
+
+tbody tr:hover{
+    background-color: #f7f4fc;
+    font-weight: bold;
+}
+
+.none td{
+    text-align: center;
+    font-size: 23px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+footer p{
+    font-size: 12px;
+    color: rgb(255, 204, 240);
+    margin-bottom: 10px;
+}
+
+.none:hover{
+    background-color: white;
+    font-weight: normal;
+}
+
+a[href] img{
+    width: 17px;
+    color: #8E6BBF;
+}

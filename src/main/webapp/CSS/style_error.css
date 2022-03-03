@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Middleschool_student';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_08@1.0/Middleschool_student.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+  	
+body{
+    font-family: 'Middleschool_student';
+    text-align: center;
+          background-color: #8E6BBF;
+          color: white;
+}
+
+h5{
+    font-size: 60px;
+}
+
+h1{
+    font-size: 180px;
+}
+
+p{
+    font-size: 60px;
+}
